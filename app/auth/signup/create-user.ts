@@ -1,7 +1,7 @@
 'use server';
 
-import { FormError } from '@/app/common/form-error.interface';
-import { post } from '@/app/util/fetch';
+import { post } from '@/app/common/constants/util/fetch';
+import { FormError } from '@/app/common/interfaces/form-error.interface';
 import { redirect } from 'next/navigation';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
